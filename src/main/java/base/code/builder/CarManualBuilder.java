@@ -4,7 +4,7 @@ import base.code.model.Engine;
 import base.code.model.CarManual;
 
 public class CarManualBuilder implements Builder {
-  private CarManual carManual;
+  private CarManual carManual = new CarManual();
 
   @Override
   public void reset() {
